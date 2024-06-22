@@ -1,0 +1,8 @@
+services:
+  s2h:
+    image: s2h
+    ports:
+    - 8080:8080
+    command: >
+        /usage go-chromecast
+        /ls ls
